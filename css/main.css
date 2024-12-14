@@ -4015,10 +4015,12 @@ a.order-consult:hover{
   .conult-single span{
     font-weight: 600;
     font-size: 15px;
-    color: var(--secondery-color);
+    color: #a93939;
     margin-bottom: 15px;
     display: block;
-  }
+    margin-top: 15px;
+  
+  } 
   .faq-answer p{font-size: 13px;
     line-height: 26px;
     margin: 0;}
