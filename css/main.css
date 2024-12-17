@@ -5665,3 +5665,168 @@ color: #939393;
   display: block;
   margin: auto;
 }
+/* Ask-consultin */
+.ask-consulting-section .search-cont {
+
+  margin-top: 0;
+  width: 100%;
+}
+.ask-consulting-section .search-input {
+
+  font-size: 14px;
+  height: 45px;
+}
+.ask-consulting-section .search-marriage-blog {
+
+  width: 80%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.ask-consulting-section .search-form{width: 100%;}
+.ask-consulting-section .search-select-blog {
+  margin-bottom: 15px;
+}
+
+.ask-consulting-section .search-send .btn {
+  width: 230px;}
+  @media(max-width:991px) {
+    .ask-consulting-section .search-marriage-blog {
+      width: 90%;
+
+  }
+  }
+  @media(max-width:768px) {
+    .ask-consulting-section .search-marriage-blog {
+      margin-bottom: 50px;
+  }
+  }
+  @media(max-width:480px) {
+    .ask-consulting-section .search-select-blog {
+      flex-direction: column;
+      align-items: start;
+  }
+  .ask-consulting-section .search-select-blog span {
+
+    margin-inline-start: 5px;
+    width: auto;
+    margin-bottom: 10px;
+}
+.ask-consulting-section .search-send .btn {
+  width: 100%;
+  font-size: 16px;
+}
+  }
+  @media(max-width:425px) {
+    .ask-consulting-section .search-marriage-blog {
+      margin-bottom: 50px;
+      padding: 35px 25px;
+  }
+  }
+  @media(max-width:375px) {
+    .ask-consulting-section .search-marriage-blog {
+      width: 100%;
+  }
+  }
+  @media(max-width:325px) {
+    .ask-consulting-section .search-marriage-blog {
+      margin-bottom: 30px;
+      padding: 35px 10px;
+  }
+  }
+  /* my-consultings-section */
+  .my-consultings-section{
+    padding-bottom: 80px;
+  }
+  .my-consult-flex{
+  
+  }
+  .my-consult-blog{
+    display: flex;
+
+    border-radius: 15px;
+    border: 1px solid #e2e2e285;
+    overflow: hidden;
+    margin-bottom: 15px;
+    background-color: #fff;
+  }
+  .my-consult-title{
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 15px;
+    display: flex
+    ;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-evenly;
+        width: 20%;
+  }
+  .my-consult-title h3{
+    font-size: 14px;
+    padding-top: 20px;
+    line-height: 25px;
+    text-align: justify;
+  }
+  .my-consult-cate{
+    display: flex;
+        align-items: center;
+  }
+  .my-consult-cate span{
+    margin-inline-end: 5px;
+    font-size: 11px;
+  }
+  .my-consult-cate h5{
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  .my-consult-content{
+    background-color: #F9F9F9;
+    width: 80%;
+  }
+  .my-consult-content p{
+    font-size: 12px;
+    line-height: 27px;
+    padding: 25px 15px
+  }
+
+  .my-consult-content a{
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  @media(max-width:1024px) {
+  .my-consult-title h3 {
+    font-size: 13px;
+    padding-top: 0px;
+    line-height: 25px;
+    text-align: start;
+}}
+@media(max-width:991px) {
+  .my-consult-blog {
+    flex-direction: column;
+}
+.my-consult-title{width: 100%;}
+.my-consult-content {
+  width: 100%;
+}
+}
+@media(max-width:480px) {
+.my-consultings-section {
+  padding-bottom: 30px;
+}
+.my-consult-content p {
+  padding: 20px 5px;
+}
+.my-consult-title h3 {
+  font-size: 12px;
+}
+.my-consult-cate h5 {
+  font-size: 13px;
+
+}
+}
+@media(max-width:375px) {
+  .my-consult-content p {
+    padding: 20px 15px;
+    margin: 0;
+    text-align: justify;
+}
+}
